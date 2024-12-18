@@ -260,6 +260,27 @@ header li {
   background-color: #009999;
 }
 
+.github-btn {
+  padding: 10px 20px;
+  background-color: #78507e;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.github-btn:hover {
+  background-color: #5a3b5e;
+}
+
+.github-btn:active {
+  background-color: #78507e;
+}
 
 /* フッター */
 footer {
