@@ -76,6 +76,9 @@ hr {
   margin: 50px;
   width: 50%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .right {
@@ -236,7 +239,6 @@ header li {
 }
 
 .btn {
-  display: inline-block;
   padding: 10px 20px;
   background-color: #009999;
   color: #fff;
@@ -244,6 +246,10 @@ header li {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 .btn:hover {
